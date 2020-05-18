@@ -27,11 +27,28 @@ if (ƒ==0) {
 }
 if(isWeekday) {
 	System.out.println("get up lazybones!");
+	System.exit(0);
 }
 else {
-	System.out.println("Go ahead and sleep in then.");
+
+int å=JOptionPane.showConfirmDialog(null, "Are we on vacation?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
+        
+if (å==0) {
+	isVacation=true;
 }
-        /*
+else {
+	isVacation=false;
+}
+if (isVacation) {
+	System.out.println("Oh ok then get some sleep then.");
+}
+else {
+	System.out.println("oh ok then its the weekend.");
+}
+}
+
+
+/*
          * Print "sleep in"? if it is a vacation or a weekend. 
          * If it's a weekday, print "get up lazybones!"? 
          * If it's a weekday, but we are on vacation,  print "sleep in"?.
