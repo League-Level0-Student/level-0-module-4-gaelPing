@@ -1,26 +1,26 @@
-/*
+
 import ddf.minim.*;
 Minim minim = new Minim(this); 
 AudioSample doh;
 AudioSample woohoo;
-*/
+
 
 void setup() {
   
   //Find a Where's Waldo picture and drop it into this sketch.     
-  PImage waldo = loadImage("waldo.jpg"); // Change this to match your file name.
-  size(500, 500); // Change this to match the size of your waldo picture
-  image(waldo, 0, 0);
+  PImage waldo = loadImage("Waldo.png"); // Change this to match your file name.
+  size(500, 700); // Change this to match the size of your waldo picture
+  image(waldo,0, 0);
 
-  /*
-    doh = minim.loadSample("homer-doh.wav"); 
-    woohoo = minim.loadSample("homer-woohoo.wav"); 
-  */
+
+    //doh = minim.loadSample("homer-doh.wav"); 
+    //woohoo = minim.loadSample("homer-woohoo.wav"); 
+
 }
 
 void draw() {
       // Use this print statement to find out the coordinates of Waldo when you press the mouse
-      // println("X: " + mouseX + " Y: " + mouseY); 
+println("X: " + mouseX + " Y: " + mouseY); 
 
       // If the mouse is on Waldo, print “Waldo found!”
 
