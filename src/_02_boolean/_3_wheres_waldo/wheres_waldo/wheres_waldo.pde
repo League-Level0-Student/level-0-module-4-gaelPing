@@ -25,6 +25,7 @@ println("X: " + mouseX + " Y: " + mouseY);
       // If the mouse is on Waldo, print “Waldo found!”
 if(mouseX==134){
 print("waldo found");}
+if (mouseX==1){print("ok boomer");}
 /**********  Now to add the sounds. You will need to uncomment all the code and import the Minim library ********/
 
       // If Waldo is found, also use a method below to play “Woohoo”
