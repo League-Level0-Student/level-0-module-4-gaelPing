@@ -13,6 +13,10 @@ public class StringMethods {
 		if (ber<str.length()+1) {
 			System.out.println(str.charAt(ber));
 		}
+		JOptionPane.showMessageDialog(null, "now lets see if i can figure out what number the leter is.");
+		//if (ber) {
+			
+		//}
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
 		//for (int i = 0; i < str.length(); i++) {
