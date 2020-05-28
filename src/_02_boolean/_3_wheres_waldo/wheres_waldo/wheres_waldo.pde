@@ -1,8 +1,8 @@
 PImage waldo;
-import ddf.minim.*;
-Minim minim = new Minim(this); 
-AudioSample doh;
-AudioSample woohoo;
+//import ddf.minim.*;
+//Minim minim = new Minim(this); 
+//AudioSample doh;
+//AudioSample woohoo;
 
 
 void setup() {
@@ -20,7 +20,6 @@ void setup() {
 void draw() {
   // Use this print statement to find out the coordinates of Waldo when you press the mouse
   println("X: " + mouseX + " Y: " + mouseY); 
-
   // If the mouse is on Waldo, print “Waldo found!”
   if (mouseX==134) {
     print("waldo found");

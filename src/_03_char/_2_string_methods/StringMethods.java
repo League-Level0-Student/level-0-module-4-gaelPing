@@ -1,15 +1,24 @@
 package _03_char._2_string_methods;
 
+import javax.swing.JOptionPane;
 
 public class StringMethods {
 	public static void main(String[] args) {
 		
 		// 1. Create a String variable and initialize it to contain a minimum of 3 characters
-
+		String name=JOptionPane.showInputDialog("what is your first name.");
+		String str = name;
+		String num=JOptionPane.showInputDialog("Choose a leter in your name but as a number starting from 0.");
+		int ber=Integer.parseInt(num);
+		if (ber<str.length()+1) {
+			System.out.println(str.charAt(ber));
+		}
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
-
-		
+		//for (int i = 0; i < str.length(); i++) {
+		//	System.out.println(str.charAt(i));
+		//}
+	
 		// 3. Print the length of your String to the console.
 		//    HINT: .length()
 
