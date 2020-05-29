@@ -14,11 +14,31 @@ public class StringMethods {
 			System.out.println(str.charAt(ber));
 		}
 		JOptionPane.showMessageDialog(null, "now lets see if i can figure out what number the leter is.");
-		//if (ber) {
-			
-		//}
+		String ƒ=JOptionPane.showInputDialog("choose a letter in your name");
+
+		
+		
+		
+		
+		//		if (ber<str.charAt(ber)) {
+//			System.out.println("the letter "+str.charAt(ber)+" is letter number "+ber);
+//		}
+//	
+//		// "Gael"; "e"----->3
+	for( int i = 0; i < str.length(); i++ ) {
+			System.out.println(str.charAt(i)+ " is number"+i);
+			String letter = str.charAt(i)+"";
+			if( letter.equals( ƒ ) ) {
+			//System.out.println(ber);
+				System.out.println("That is letter " + (i+1) );
+			}
+		}
+	}
+	}
+		
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
+		
 		//for (int i = 0; i < str.length(); i++) {
 		//	System.out.println(str.charAt(i));
 		//}
@@ -37,7 +57,6 @@ public class StringMethods {
 		//    EXAMPLE: if your string is "abc" and you are searching 
 		//             for char 'b', then print "b is at index 1"
 		
-	}
-}
+	
 
 
