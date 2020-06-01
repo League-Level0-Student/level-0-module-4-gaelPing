@@ -18,7 +18,9 @@ public class DontForgetTheLyrics {
 	
 	public static void main(String[] args) {
 		// 4. Make a pop-up to explain the game.
-
+JOptionPane.showMessageDialog(null,"welcome to GUESS THE SONG."
+		+ "\n this is the game where you try to guess the songs name."
+		+ "\n you will be given the lyrics from a song and you have to guess the songs name ");
 		// 5. Use the playSound method to play your song.
 
 		// 6. Make a pop-up for the player to type their answer.

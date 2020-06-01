@@ -10,32 +10,23 @@ public class StringMethods {
 		String str = name;
 		String num=JOptionPane.showInputDialog("Choose a leter in your name but as a number starting from 0.");
 		int ber=Integer.parseInt(num);
-		if (ber<str.length()+1) {
+		if (ber<str.length()) {
 			System.out.println(str.charAt(ber));
 		}
-		JOptionPane.showMessageDialog(null, "now lets see if i can figure out what number the leter is.");
-		String ƒ=JOptionPane.showInputDialog("choose a letter in your name");
 
-		
-		
-		
-		
-		//		if (ber<str.charAt(ber)) {
-//			System.out.println("the letter "+str.charAt(ber)+" is letter number "+ber);
-//		}
-//	
-//		// "Gael"; "e"----->3
-	for( int i = 0; i < str.length(); i++ ) {
-			System.out.println(str.charAt(i)+ " is number"+i);
-			String letter = str.charAt(i)+"";
-			if( letter.equals( ƒ ) ) {
-			//System.out.println(ber);
-				System.out.println("That is letter " + (i+1) );
-			}
-		}
 	}
-	}
-		
+
+}
+//
+// "Gael"; "e"----->3
+//for( int i = 0; i < str.length(); i++ ) {
+//	System.out.println(str.charAt(i)+ " is number"+i);
+//	String letter = str.charAt(i)+"";
+//	if( letter.equals( ƒ ) ) {
+//	//System.out.println(ber);
+//		System.out.println("That is letter " + (i+1) );
+//	}
+//}
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
 		
