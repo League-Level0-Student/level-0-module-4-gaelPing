@@ -9,6 +9,7 @@ public class SimpleCalculator {
 		// 1. Get 2 numbers from the user and convert them to integer.
 
 		// 2. Customize pop-up to support add/subtract/multiply/divide operations.
+		
 		int operation = JOptionPane.showOptionDialog(null, "The question", "Pop-up Title", 0,
 				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Button1", "Button2", "Button3", "Button3" },
 				null);
@@ -23,4 +24,6 @@ public class SimpleCalculator {
 	//    HINT: use 'static void add(int num1, num2) { ... }
 
 	// 4. Create similar methods for subtraction, multiplication and division.
+
+	// TODO Auto-generated method stub
 }
