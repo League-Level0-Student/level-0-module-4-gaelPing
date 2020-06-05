@@ -1,15 +1,17 @@
 package _99_extra;
 
 
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 public class SimpleCalculator {
 	public static void main(String[] args) {
 
 		// 1. Get 2 numbers from the user and convert them to integer.
-
+String num=JOptionPane.showInputDialog(null, "pick any number");
+String ber=JOptionPane.showInputDialog(null, "now pick a different number");
 		// 2. Customize pop-up to support add/subtract/multiply/divide operations.
-		
+		 
 		int operation = JOptionPane.showOptionDialog(null, "The question", "Pop-up Title", 0,
 				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Button1", "Button2", "Button3", "Button3" },
 				null);
