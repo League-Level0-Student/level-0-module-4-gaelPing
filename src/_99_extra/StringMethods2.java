@@ -6,7 +6,11 @@ public class StringMethods2 {
 		
 		// 1. Create a String variable and initialize it with
 		//    random upper and lower case characters.
-//string time
+String time="this is sparda";
+System.out.println(time.toUpperCase());
+System.out.println(time.toLowerCase());
+System.out.println(time.substring(4,7));
+System.out.println(time.substring(10,13));
 		// 2. Print your String to the console in upper case.
 		
 		// 3. Print your String to the console in lower case.
@@ -21,3 +25,4 @@ public class StringMethods2 {
 		//        .length() to determine WHERE the last 3 char's are located.
 	}
 }
+ 
